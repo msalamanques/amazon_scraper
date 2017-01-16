@@ -31,6 +31,7 @@ crawlStatus = RestClient.get "https://#{user_token}:@api.80legs.com/v2/crawls/Am
 #puts crawlStatus
 
 crawlResult = JSON.parse(RestClient.get "https://#{user_token}:@api.80legs.com/v2/results/AmazonBuyBox_API2")
+puts crawlResult
 
 uri = URI.parse(crawlResult[0])
 
@@ -41,7 +42,7 @@ response = http.request(request)
 
 if response.code == "200"
   result = JSON.parse(response.body)
-  puts result
+  #puts result
   
   #result.each do |doc|
     #puts "url: " + doc["url"] #reference properties like this
