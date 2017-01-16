@@ -1,0 +1,6 @@
+https://www.amazon.com/gp/offer-listing/B00023D9RG/?condition=new&startIndex=20
+https://www.amazon.com/gp/offer-listing/B00023D9RG/?condition=new&startIndex=0
+https://www.amazon.com/gp/offer-listing/B00023D9RG/?condition=new&startIndex=10000 //-> if you put a high enough number always shows the last page
+
+Continue with startIndex until listed sellers <10 //-> that would be the las page
+
