@@ -3,6 +3,7 @@ require 'json'
 require 'rubygems'
 require 'net/http'
 require 'uri'
+require 'open-uri'
 
 user_token = "x3v8wfgqhmyja687havucn1zr8yyy1fx"
 crawl_name = "AmazonBuyBox_API2"
